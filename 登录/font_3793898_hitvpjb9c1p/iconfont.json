@@ -1,0 +1,30 @@
+{
+  "id": "3793898",
+  "name": "登录",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "301424",
+      "name": "详情",
+      "font_class": "xiangqing",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "2681691",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "5387907",
+      "name": "按钮_箭头向左_o",
+      "font_class": "anniu_jiantouxiangzuo_o",
+      "unicode": "eb89",
+      "unicode_decimal": 60297
+    }
+  ]
+}

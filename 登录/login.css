@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "iconfont";
+    /* Project id 3793898 */
+    src: url('./font_3793898_hitvpjb9c1p/iconfont.ttf') format('truetype'),
+        url('./font_3793898_hitvpjb9c1p/iconfont.woff') format('woff'),
+        url('./font_3793898_hitvpjb9c1p/iconfont.woff2') format('woff2');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 100px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.interface {
+    position: relative;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    height: 1060px;
+    background-image: url(./Background.png);
+}
+
+.filter {
+    position: absolute;
+    width: 600px;
+    height: 1060px;
+    background-color:rgba(81, 167, 182, 0.);
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 106px;
+}
+
+.title {
+    font:40px "微软雅黑";
+    line-height: 106px;
+}
+
+.photoDiv {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.photo {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -75px;
+    width: 150px;
+    height: 150px;
+    background-color:rgba(255, 255, 255, 0.2);
+    border:1px solid azure;
+    border-radius: 50%;
+}
+
+.photo p {
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    top: 90px;
+    color: azure;
+    font: 30px "微软雅黑";
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.box {
+    width: 450px;
+    height: 24.69%;
+    border-bottom: 1px solid snow;
+    margin: 0 80px;
+    color: white;
+    font: 20px "微软雅黑";
+    line-height:75px ;
+}
+
+.button {
+    position: relative;
+    top: 80px;
+    left: 50%;
+    margin-left: -220px;
+    width: 440px;
+    height: 75px;
+    background-color: white;
+    border-radius:37.5px;
+}
+
+.button a {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -70px;
+    color: rgba(0, 0, 0, 1);
+    font: 40px "微软雅黑";
+    text-decoration: none;
+}
+
+.notice {
+    position:absolute;
+    top: 850px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    height: 25px;
+    font: 23px "微软雅黑";
+}
+
+.notice a {
+    color:#3dfdb5;
+    font: 23px "微软雅黑";
+    text-decoration: none;
+}
